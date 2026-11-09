@@ -1,0 +1,459 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viksit Bharat | A Developed India</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f9fc;
+    color: #263238;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(120deg, #ff9933, #ffffff, #138808);
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.logo {
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+    background: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 42px;
+    color: #172b4d;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+nav {
+    background: #102b46;
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9933;
+}
+
+.hero {
+    text-align: center;
+    padding: 65px 20px;
+    background: linear-gradient(135deg, #102b46, #245b75);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 17px;
+    color: #e4edf5;
+}
+
+.section {
+    max-width: 1100px;
+    margin: 45px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 29px;
+    color: #153b59;
+    margin-bottom: 30px;
+}
+
+.topic-card {
+    background: white;
+    padding: 28px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    border-left: 5px solid #ff9933;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.10);
+}
+
+.topic-card h3 {
+    color: #12618a;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.topic-card p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.pillar {
+    background: white;
+    padding: 22px;
+    text-align: center;
+    border-radius: 12px;
+    border-bottom: 4px solid #138808;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.pillar h3 {
+    color: #12618a;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.pillar p {
+    font-size: 14px;
+}
+
+.references {
+    background: #edf3f7;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.references ul {
+    padding-left: 25px;
+}
+
+.references li {
+    margin: 12px 0;
+}
+
+.references a {
+    color: #075b91;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #102b46;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+footer h3 {
+    color: #ffbd59;
+    margin-bottom: 8px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer .credit {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .topic-card {
+        padding: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+       <h1>VIKSIT BHARAT</h1>
+    <p>Innovation • Technology • Sustainability • Progress</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#topics">Innovations</a>
+    <a href="#pillars">Digital India</a>
+    <a href="#references">References</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Building a Developed India</h2>
+    <p>
+        Viksit Bharat represents the dream of a developed,
+        self-reliant and technologically advanced India.
+        Through innovation, digital transformation and sustainable
+        development, we can create a brighter future for everyone.
+    </p>
+</section>
+
+<section class="section" id="topics">
+
+    <h2 class="section-title">Innovations for Tomorrow</h2>
+
+    <div class="topic-card">
+        <h3>☀️ 1. Solar-Powered Car</h3>
+        <p>
+            A solar car is an innovative vehicle that uses energy
+            from sunlight to produce electricity through solar panels.
+        </p>
+        <p>
+            The electricity is converted into power to run an electric
+            motor, which drives the wheels of the vehicle.
+        </p>
+        <p>
+            Solar cars can help reduce dependence on petrol and diesel,
+            lowering air pollution and greenhouse gas emissions.
+        </p>
+        <p>
+            This technology promotes clean transportation and supports
+            India's goal of a sustainable and energy-efficient future.
+        </p>
+    </div>
+
+    <div class="topic-card">
+        <h3>🚇 2. Modern Metro Rail System</h3>
+        <p>
+            Metro rail is a modern public transportation system
+            designed to carry large numbers of passengers quickly
+            and efficiently within cities.
+        </p>
+        <p>
+            It operates on dedicated tracks, often using electricity,
+            which helps reduce dependence on private vehicles.
+        </p>
+        <p>
+            Metro systems reduce traffic congestion, save travel time
+            and help control air pollution in crowded urban areas.
+        </p>
+        <p>
+            Modern features such as automatic signalling, smart cards
+            and digital ticketing make metro travel safer and more
+            convenient for passengers.
+        </p>
+    </div>
+
+    <div class="topic-card">
+        <h3>🌱 3. Automatic Irrigation System</h3>
+        <p>
+            An automatic irrigation system uses technology to supply
+            water to crops without requiring constant manual effort.
+        </p>
+        <p>
+            Soil moisture sensors detect the amount of water present
+            in the soil and send information to a controller.
+        </p>
+        <p>
+            When the soil becomes dry, the controller automatically
+            switches on a water pump or opens a valve to irrigate plants.
+        </p>
+        <p>
+            This system saves water, reduces wastage, decreases farmers'
+            workload and improves agricultural productivity.
+        </p>
+    </div>
+
+    <div class="topic-card">
+        <h3>💳 4. Online Banking</h3>
+        <p>
+            Online banking allows people to access banking services
+            through the internet using computers and smartphones.
+        </p>
+        <p>
+            Customers can transfer money, check account balances,
+            pay bills and view transaction records without visiting
+            a bank branch.
+        </p>
+        <p>
+            Digital payment systems such as UPI have made financial
+            transactions faster and more convenient across India.
+        </p>
+        <p>
+            Online banking supports Digital India and financial
+            inclusion, but users must protect their passwords, PINs
+            and OTPs to stay safe from online fraud.
+        </p>
+    </div>
+
+</section>
+
+<section class="section" id="pillars">
+
+    <h2 class="section-title">
+        🇮🇳 The 9 Pillars of Digital India
+    </h2>
+
+    <div class="pillar-grid">
+
+        <div class="pillar">
+            <h3>1. Broadband Highways</h3>
+            <p>Providing high-speed internet connectivity across India.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>2. Universal Access to Mobile Connectivity</h3>
+            <p>Bringing mobile network access to rural and remote areas.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>3. Public Internet Access Programme</h3>
+            <p>Making digital services accessible through common service centres and post offices.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>4. e-Governance</h3>
+            <p>Improving government services through technology and digital processes.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>5. e-Kranti</h3>
+            <p>Delivering electronic services in education, health, agriculture and other sectors.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>6. Information for All</h3>
+            <p>Making government information easily available to citizens online.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>7. Electronics Manufacturing</h3>
+            <p>Encouraging electronics production and manufacturing within India.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>8. IT for Jobs</h3>
+            <p>Providing digital skills and employment opportunities to young people.</p>
+        </div>
+
+        <div class="pillar">
+            <h3>9. Early Harvest Programmes</h3>
+            <p>Introducing quick digital initiatives to improve public services.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="references">
+
+    <h2 class="section-title">Government References</h2>
+
+    <div class="references">
+        <p>
+            The following official Government of India websites
+            provide additional information about the topics
+            presented in this exhibition.
+        </p>
+
+        <ul>
+            <li>
+                <a href="https://www.digitalindia.gov.in/"
+                   target="_blank">
+                   Digital India – Government of India
+                </a>
+            </li>
+
+            <li>
+                <a href="https://mnre.gov.in/"
+                   target="_blank">
+                   Ministry of New and Renewable Energy – Solar Energy
+                </a>
+            </li>
+
+            <li>
+                <a href="https://mohua.gov.in/upload/whatsnew/59a3f7f130eecMetro_Rail_Policy_2017.pdf"
+                   target="_blank">
+                   Ministry of Housing and Urban Affairs – Metro Rail Policy
+                </a>
+            </li>
+
+            <li>
+                <a href="https://pmksy.gov.in/"
+                   target="_blank">
+                   Pradhan Mantri Krishi Sinchayee Yojana – Irrigation
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.rbi.org.in/financialeducation/"
+                   target="_blank">
+                   Reserve Bank of India – Financial Education
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</section>
+
+<footer>
+    <h3>VIKSIT BHARAT 🇮🇳</h3>
+    <p>Technology today, a developed nation tomorrow.</p>
+
+    <p class="credit">
+        Made by Lishanth. S IX-B
+    </p>
+
+    <p>Social science expo</p>
+    <p style="margin-top:12px; color:#b8c9d9;">
+        Dream • Innovate • Develop
+    </p>
+</footer>
+
+</body>
+</html>
